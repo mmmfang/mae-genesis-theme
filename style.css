@@ -1227,6 +1227,7 @@ img.alignright,
 .nav-primary {
 	background-color: #fff;
 	border-top: 1px solid #eee;
+	text-align: center;
 }
 
 /* ## Footer Navigation
