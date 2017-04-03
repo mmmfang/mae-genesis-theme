@@ -1688,6 +1688,8 @@ p.entry-meta {
 		border: none;
 		padding: 12px 0;
 		width: 100%;
+		text-align: center;
+		border-bottom: 1px solid #eee;
 	}
 
 	.js .genesis-nav-menu .sub-menu {
