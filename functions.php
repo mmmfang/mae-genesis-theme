@@ -127,6 +127,6 @@ remove_action( 'genesis_footer', 'genesis_do_footer' );
 add_action( 'genesis_footer', 'sp_custom_footer' );
 function sp_custom_footer() {
 	?>
-	<div class="footer-text"><span> &copy Copyright 2017</span>
+	<div class="footer-text"><span> &copy Copyright 2017 - Theme created by me</span>
 	<?php
 }
