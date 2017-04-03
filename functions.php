@@ -63,8 +63,8 @@ add_theme_support( 'genesis-responsive-viewport' );
 
 //* Add support for custom header
 add_theme_support( 'custom-header', array(
-	'width'           => 1200,
-	'height'          => 320,
+	'width'           => 1280,
+	'height'          => 300,
 	'header-selector' => '.site-title a',
 	'header-text'     => false,
 	'flex-height'     => true,
@@ -119,4 +119,14 @@ function genesis_sample_comments_gravatar( $args ) {
 
 	return $args;
 
+}
+
+
+//* Customize the entire footer
+remove_action( 'genesis_footer', 'genesis_do_footer' );
+add_action( 'genesis_footer', 'sp_custom_footer' );
+function sp_custom_footer() {
+	?>
+	<div class="footer-text"><span> &copy Copyright 2017</span>
+	<?php
 }
